@@ -1,0 +1,19 @@
+{
+  "_comment": "Example: merge 7 DnB session snapshots (F minor, 174 BPM) into one 32-step project.",
+  "name": "DnB Session B",
+  "session_folder": "sessionsB",
+  "master_index": 6,
+  "force_32_step": true,
+  "patterns": [
+    {"id": "main",    "file_index": 1, "pattern": "pattern_0"},
+    {"id": "fill",    "file_index": 1, "pattern": "pattern_1"},
+    {"id": "variant", "file_index": 4, "pattern": "pattern_0"},
+    {"id": "sparse",  "file_index": 6, "pattern": "pattern_1"}
+  ],
+  "song": [
+    "main",    "fill",
+    "main",    "fill",
+    "variant", "main",
+    "sparse",  "main"
+  ]
+}

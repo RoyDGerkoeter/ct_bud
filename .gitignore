@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Personal MCP config (contains absolute local paths)
+.mcp.json
+
+# Personal session recordings (source material)
+sessionsA/
+sessionsB/
+sessionsC/
+
+# Generated analysis output (regenerate with: uv run tools/analyze_ncs.py)
+sessions_data/
+
+# Generated NCS project files (personal output)
+output/
+
+# Old experiments and scratch work
+scratch/
+
+# Editor workspace files
+*.code-workspace

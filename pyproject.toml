@@ -1,0 +1,13 @@
+[project]
+name = "circuit-tracks-companion"
+version = "0.1.0"
+description = "Tools and research for the Novation Circuit Tracks — session analysis, NCS project building, SysEx probing, and a Windows MIDI fix."
+requires-python = ">=3.11"
+dependencies = [
+    "circuit-tracks-tools[mcp]>=0.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "roast-my-code>=1.0.1",
+]
